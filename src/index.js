@@ -9,6 +9,7 @@ Route -  as rotas propriamente dita
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./componentes/Header";
 import Home from "./rotas/Home";
+import Vagas from "./rotas/Vagas";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -23,6 +24,7 @@ root.render(
         na pagina  */}
         <Route path="/cadastro" element={<p>Oi!</p>} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/Vagas" element={<Vagas />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
