@@ -1,7 +1,7 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-const textoOpcoes = ["HOME", "SOBRE", "CADASTRO", "VAGAS", "LOGIN"];
+const textoOpcoes = ["HOME", "SOBRE", "CADASTRO", "VAGAS", "LOGIN", "GERENCIAMENTO"];
 
 function Header() {
   return (

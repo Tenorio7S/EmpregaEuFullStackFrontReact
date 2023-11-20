@@ -59,7 +59,6 @@ function Pesquisa() {
 
     //assim que o site abrir deve carregar as vagas do base, para isso vamos utilizar o useEffect\
     //primeiro parametro é uma funcao vazia e o segundo uma lista vazia
-    //
     useEffect (()=>{
         fetchVagas()
     }, [])
@@ -74,7 +73,7 @@ function Pesquisa() {
     }
     
     /// para testar
-
+    console.log(setVagas)
     console.log(vagasPesquisadas);
     return (
         <PesquisaContainer>
